@@ -1,0 +1,336 @@
+.homeHero {
+  padding: 68px 0 56px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: radial-gradient(
+      900px 500px at 20% 0%,
+      rgba(45, 212, 191, 0.18),
+      transparent 60%
+    ),
+    radial-gradient(
+      700px 420px at 90% 10%,
+      rgba(96, 165, 250, 0.16),
+      transparent 55%
+    );
+}
+
+.homeHeroInner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.homeHeroBadge {
+  display: inline-flex;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  color: #cbd5e1;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.homeHeroTitle {
+  margin: 14px 0 0;
+  font-size: 54px;
+  line-height: 1.02;
+  letter-spacing: -0.9px;
+}
+
+.homeHeroSubtitle {
+  margin: 14px 0 0;
+  max-width: 70ch;
+  color: #cbd5e1;
+  font-weight: 600;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.homeHeroCtas {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.homeBtnPrimary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 900;
+  font-size: 14px;
+  color: #0b1220;
+  background: linear-gradient(135deg, #2dd4bf, #60a5fa);
+  border: 0;
+}
+
+.homeBtnPrimary:hover {
+  filter: brightness(1.03);
+}
+
+.homeBtnGhost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 900;
+  font-size: 14px;
+  color: #e5e7eb;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.homeBtnGhost:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.homeTrustRow {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  color: #cbd5e1;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.homeTrustItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.homeTrustDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2dd4bf, #60a5fa);
+}
+
+.homeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.homeCard {
+  padding: 16px 16px 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.homeCardTitle {
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.homeCardDesc {
+  margin-top: 8px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.homeSectionCtaRow {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homeTextLink {
+  text-decoration: none;
+  font-weight: 900;
+  color: #e5e7eb;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.homeTextLink:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.homeSteps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.homeStep {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.homeStepNum {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 1000;
+  color: #0b1220;
+  background: linear-gradient(135deg, #2dd4bf, #60a5fa);
+  flex: 0 0 auto;
+}
+
+.homeStepTitle {
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.homeStepDesc {
+  margin-top: 6px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.homeProjects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.homeProjectCard {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.homeProjectMedia {
+  height: 150px;
+  background: linear-gradient(
+    135deg,
+    rgba(45, 212, 191, 0.22),
+    rgba(96, 165, 250, 0.18)
+  );
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.homeProjectTitle {
+  padding: 14px 14px 0;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.homeProjectMeta {
+  padding: 6px 14px 14px;
+  color: #cbd5e1;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.homeFaq {
+  display: grid;
+  gap: 10px;
+}
+
+.homeFaqItem {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 14px;
+}
+
+.homeFaqQ {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.homeFaqA {
+  margin-top: 10px;
+  color: #cbd5e1;
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.homeFinalCta {
+  padding: 60px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: radial-gradient(
+      900px 500px at 10% 30%,
+      rgba(45, 212, 191, 0.14),
+      transparent 62%
+    ),
+    radial-gradient(
+      700px 420px at 90% 10%,
+      rgba(96, 165, 250, 0.12),
+      transparent 55%
+    );
+}
+
+.homeFinalInner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 18px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 22px;
+}
+
+.homeFinalTitle {
+  font-weight: 1000;
+  font-size: 22px;
+}
+
+.homeFinalText {
+  margin-top: 10px;
+  color: #cbd5e1;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.homeFinalButtons {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .homeHeroTitle {
+    font-size: 42px;
+  }
+  .homeGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .homeProjects {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .homeHeroTitle {
+    font-size: 34px;
+  }
+  .homeSteps {
+    grid-template-columns: 1fr;
+  }
+  .homeGrid {
+    grid-template-columns: 1fr;
+  }
+}

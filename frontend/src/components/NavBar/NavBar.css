@@ -1,0 +1,141 @@
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  background: rgba(11, 18, 32, 0.72);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navInner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 14px 18px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 14px;
+  align-items: center;
+}
+
+.navBrand {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: #e5e7eb;
+  min-width: 0;
+}
+
+.navLogo {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+}
+
+.navBrandText {
+  min-width: 0;
+}
+
+.navBrandName {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 1.1;
+  font-size: 14px;
+}
+
+.navBrandMeta {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.navLinks {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.navLink:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #e5e7eb;
+}
+
+.navLink.isActive {
+  background: rgba(45, 212, 191, 0.12);
+  color: #e5e7eb;
+  border: 1px solid rgba(45, 212, 191, 0.22);
+}
+
+.navCtas {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.navPhone {
+  display: none;
+  text-decoration: none;
+  color: #cbd5e1;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navPhone:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.navButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #0b1220;
+  background: linear-gradient(135deg, #2dd4bf, #60a5fa);
+  border: 0;
+  box-shadow: 0 10px 30px rgba(45, 212, 191, 0.12);
+}
+
+.navButton:hover {
+  filter: brightness(1.03);
+}
+
+@media (min-width: 920px) {
+  .navPhone {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 860px) {
+  .navInner {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+  .navLinks {
+    justify-content: flex-start;
+  }
+  .navCtas {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

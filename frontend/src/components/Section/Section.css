@@ -1,0 +1,50 @@
+.section {
+  padding: 56px 0;
+}
+
+.sectionInner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.sectionHeader {
+  margin-bottom: 18px;
+}
+
+.sectionEyebrow {
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #cbd5e1;
+}
+
+.sectionTitle {
+  margin: 12px 0 0;
+  font-size: 30px;
+  line-height: 1.12;
+  letter-spacing: -0.3px;
+}
+
+.sectionSubtitle {
+  margin: 10px 0 0;
+  max-width: 68ch;
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 44px 0;
+  }
+  .sectionTitle {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,158 @@
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.9fr;
+  gap: 14px;
+  align-items: start;
+}
+
+.contactForm {
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contactRow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.contactLabel {
+  display: grid;
+  gap: 8px;
+  color: #cbd5e1;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+.contactInput,
+.contactTextarea {
+  width: 100%;
+  border-radius: 14px;
+  padding: 12px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(11, 18, 32, 0.65);
+  color: #e5e7eb;
+  font-weight: 700;
+  outline: none;
+}
+
+.contactTextarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contactInput:focus,
+.contactTextarea:focus {
+  border-color: rgba(45, 212, 191, 0.35);
+  box-shadow: 0 0 0 4px rgba(45, 212, 191, 0.08);
+}
+
+.contactActions {
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.contactBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 1000;
+  color: #0b1220;
+  background: linear-gradient(135deg, #2dd4bf, #60a5fa);
+  border: 0;
+}
+
+.contactBtnGhost {
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 1000;
+  color: #e5e7eb;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+}
+
+.contactBtnGhost:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.contactHint {
+  margin-top: 12px;
+  color: #cbd5e1;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.contactHint a {
+  font-weight: 1000;
+}
+
+.contactAside {
+  display: grid;
+  gap: 12px;
+}
+
+.contactAsideCard {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contactAsideTitle {
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+
+.contactAsideTitle2 {
+  margin-top: 12px;
+  font-weight: 1000;
+}
+
+.contactAsideLink {
+  display: inline-flex;
+  margin: 6px 0;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 900;
+}
+
+.contactAsideText {
+  color: #cbd5e1;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.contactHoursRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+.contactMuted {
+  color: #9ca3af;
+  font-weight: 900;
+}
+
+@media (max-width: 980px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .contactRow {
+    grid-template-columns: 1fr;
+  }
+}

@@ -52,9 +52,6 @@ export function About() {
               <li>Professional finish work</li>
               <li>Final walkthrough and punch list</li>
             </ul>
-            <div className="aboutNote">
-              Tip: replace these bullets with your exact process and guarantees.
-            </div>
           </div>
         </div>
       </Section>

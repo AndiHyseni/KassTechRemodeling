@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { BUSINESS } from "../../constants/business";
 import "./Footer.css";
-import logoUrl from "../../assets/kass-tech-logo.svg";
+import logoUrl from "../../assets/kass-tech-logo.png";
 
 export function Footer() {
   const year = new Date().getFullYear();

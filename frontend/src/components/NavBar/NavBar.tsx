@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import { BUSINESS } from "../../constants/business";
-import logoUrl from "../../assets/kass-tech-logo.svg";
+import logoUrl from "../../assets/kass-tech-logo.png";
 import "./NavBar.css";
 
 const navItems = [
